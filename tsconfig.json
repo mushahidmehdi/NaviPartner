@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noEmit": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "allowJs": false,
+    "jsx": "react",
+    "resolveJsonModule": true,
+    "lib": ["es6", "dom"],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
+}
